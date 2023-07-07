@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="calculator.css">
+       <script src="calculator.js"></script>
+    </head>
+    <body class="body">
+       
+        <div class="container">
+            <div>
+                <input type="text" id="inp" class="input">
+            </div>
+            <div class="button_container">
+                <div class="button">
+                    <button onclick="clc()" class="btn-1">C</button>
+                    <button onclick="dis('**(1/2)')" class="btn-1">sqrt</button>
+                    <button onclick="dis('**')" class="btn-1">^</button>
+                    <button onclick="backspace()" class="btn-1">Del</button>
+                    <button onclick="sin()" class="btn-1">sin()</button>
+                    <button onclick="cos()" class="btn-1">cos()</button>
+                    <button onclick="tanr()" class="btn-1">tan()</button>
+                    <button onclick="cot()"class="btn-1">cot()</button>
+                    <button onclick="dis('1')" class="btn-1">1</button>
+                    <button onclick="dis('2')" class="btn-1">2</button>
+                    <button onclick="dis('3')" class="btn-1">3</button>
+                    <button onclick="dis('+')" class="btn-1">+</button>
+                    <button onclick="dis('4')" class="btn-1">4</button>
+                    <button onclick="dis('5')" class="btn-1">5</button>
+                    <button onclick="dis('6')" class="btn-1">6</button>
+                    <button onclick="dis('-')" class="btn-1">-</button>
+                    <button onclick="dis('7')" class="btn-1">7</button>
+                    <button onclick="dis('8')" class="btn-1">8</button>
+                    <button onclick="dis('9')" class="btn-1">9</button>
+                    <button onclick="dis('*')" class="btn-1">*</button>
+                    <button onclick="dis('/')" class="btn-1">/</button>
+                    <button onclick="dis('0')" class="btn-1">0</button>
+                    <button onclick="dis('.')" class="btn-1">.</button>
+                    <button onclick="output()" class="btn-1">=</button>
+                    
+                </div>
+                <div class="button-2">
+                    <button onclick="hist()" id="history" class="btn-2"><b>History</b></button>
+                    <button onclick="clrh()" id="history" class="btn-2"><b>Clear History</b></button>
+                </div>
+            </div>
+        </div>
+        <div class="history">
+            <h1 id="h11">History</h1>
+            <div id="hist-2">
+
+            </div>
+        </div>
+    </body>
+</html>
